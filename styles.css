@@ -1,0 +1,65 @@
+.container {
+    background-color: gray;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+    border-style: solid;
+    border-width: 2vmax;
+    border-color: green;
+    border-radius: 2vmax;
+}
+
+.button {
+    display: flex;
+    width: 5vmin;
+    height: 5vmin;
+    border-style: solid;
+    border-radius: 1vmin;
+    background-color: white;
+    border-color: black;
+    border-width: .5vmin;
+    font-size: 2vmin;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    margin: 1vmax;
+}
+.container, .panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vmax;
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#numeric_display {
+    width: 85%;
+    height: 10vh;
+    font-size: 5vmin;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: .5vmin;
+    border-color: black;
+    border-radius: .25vmin;
+}
+.all_buttons {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+#column_operators>.button {
+    height: 3vmin;
+    border-color: brown;
+}
